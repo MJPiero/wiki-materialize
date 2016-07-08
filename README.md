@@ -1,5 +1,5 @@
 ##wiki-materialize
-套用[materialize](http://materializecss.com/）UI框架的wiki模板页
+套用[materialize](http://materializecss.com/) UI框架的wiki模板页
 
 ##Authors
 
