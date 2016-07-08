@@ -1,0 +1,115 @@
+@import "default";
+
+.body{
+  overflow: hidden;
+  font-family: $Default_FontFamily;
+  background-color: #fcfcfc;
+  margin: 0;
+  [targetjump]{
+    cursor: pointer;
+  }
+  .fa{
+    margin: 0 10px;
+  }
+  .col{
+    margin: 0;
+    padding: 0;
+  }
+  .fixed-action-btn{
+    .btn-floating{
+      .fa{
+        margin: 0;
+      }
+    }
+  }
+  .left-container{
+    height: 100%;
+    background-color: #fff;
+    h5{
+      height: 42px;
+      line-height: 42px;
+    }
+    .slide-nav{
+      .collapsible{
+        border: none;
+        box-shadow: none;
+        margin: 0;
+        .fa{
+          font-size: 14px;
+          text-align: right;
+          float: right;
+        }
+        .collapsible-header{
+          font-size: 14px;
+          &:nth-last-child(1){
+            border-bottom: none;
+          }
+        }
+        .one{
+          font-weight: bold;
+          color: #fff;
+          padding: 0;
+          font-size: 16px;
+          border-bottom: 1px solid #ddd;
+          .fa{
+            font-size: 14px;
+            float: left;
+            text-align: center;
+          }
+          a{
+            width: 100%;
+            height: 100%;
+            display: inline-block;
+            color: #fff;
+          }
+        }
+        .two{
+          a{
+            width: 100%;
+            height: 100%;
+            display: inline-block;
+            color: #000;
+          }
+        }
+        .collection{
+          .collection-item{
+            font-size: 12px;
+            padding-left: 40px;
+            padding-right: 6px;
+            border-bottom: none;
+            color: #000;
+            &.active{
+              background-color: #fff;
+              color: $Default_MainColor;
+            }
+            &:hover{
+              background-color: #e0f2f1;
+            }
+          }
+        }
+      }
+    }
+
+  }
+  .right-container{
+    overflow: auto;
+    .crumbs{
+      padding-left: 20px;
+      .breadcrumb{
+        font-size: 14px;
+        &:before{
+          content: "\f105";
+          font-family: "FontAwesome";
+          font-size: 16px;
+        }
+      }
+    }
+    .main-content{
+      overflow: auto;
+      padding: 10px 20px;
+      blockquote{
+        border-left: 5px solid $Default_MainColor;
+      }
+    }
+  }
+}

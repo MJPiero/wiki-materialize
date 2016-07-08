@@ -1,0 +1,46 @@
+{
+  "msg": "success",
+  "res": [
+    {
+      "level": 1,
+      "name": "在线手册",
+      "name_en": "zaixian",
+      "data": [
+        {
+          "level": 2,
+          "name": "php手册",
+          "name_en": "php",
+          "data": [
+            {
+              "level": 3,
+              "name": "第一章：啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊"
+            },
+            {
+              "level": 3,
+              "name": "第二章：啊啊啊啊啊啊啊啊啊"
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "javascript手册",
+          "name_en": "javascript",
+          "data": []
+        },
+        {
+          "level": 2,
+          "name": "ruby手册",
+          "name_en": "ruby",
+          "data": []
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "name": "其他手册",
+      "name_en": "qita",
+      "data":[]
+    }
+  ],
+  "status": 200
+}

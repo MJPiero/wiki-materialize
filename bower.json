@@ -1,0 +1,22 @@
+{
+  "name": "mob_materialize",
+  "authors": [
+    "Majing <10710314@qq.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "Materialize": "materialize#~0.97.6",
+    "font-awesome": "font-awsome#~4.6.3"
+  }
+}

@@ -1,0 +1,17 @@
+@import "compass/support";
+@import "compass/css3";
+
+//浏览器兼容
+//==========================================
+$legacy-support-for-ie6: true;
+$legacy-support-for-ie7: true;
+$legacy-support-for-ie8: true;
+$legacy-support-for-mozilla: true;
+$supported-browsers: browsers();
+$debug-browser-support: true;   //开发模式
+
+
+$Default_FontFamily: "Microsoft Yahei","微软雅黑",Tahoma,Helvetica,Arial,sans-serif !default;
+$Default_TextShadow: 2px 2px 2px #ccc !default;
+
+$Default_MainColor: #009688;
