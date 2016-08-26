@@ -10,6 +10,8 @@
 
 ##Authors
 **majing(Piero)**
-
 - [Blog － http://blog.pierrothall.com/](http://blog.pierrothall.com/)
 - [Email － merlu.majing@gmail.com](http://merlu.majing@gmail.com)
+
+##Issues
+[Report a Problem](https://github.com/MJPiero/wiki-materialize/issues)
